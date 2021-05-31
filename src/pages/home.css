@@ -1,0 +1,58 @@
+html {
+    scroll-snap-type: y mandatory;
+  }
+  
+  .app {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  .app__video-cards {
+    position: relative;
+    height: 650px;
+    overflow: scroll;
+    width: 80%;
+    max-width: 500px;
+    scroll-snap-type: y mandatory;
+    border-radius: 20px;
+  }
+  
+  .app__video-cards::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .app__video-cards{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .header {
+      height: 60px;
+      width: 100%;
+      border-bottom: solid 1px rgb(227,227,228);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+}
+.logo {
+    width: 129px;
+    height: 40px;
+    background-image: url('https://i.imgur.com/ZZ75Unh.png');
+    background-size: 129px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upload {
+    right: 35px;
+    position: absolute;
+}
+
+.margen{
+    margin-top: 10px;
+}

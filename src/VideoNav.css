@@ -1,0 +1,28 @@
+.video-nav {
+    position: absolute;
+    top: 33%;
+    right: 5px;
+    color: white;
+}
+
+.video-nav__selection {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.video-nav__record {
+    height: 45px;
+    filter: invert(1);
+    padding: 20px;
+    animation: spin infinite 5s linear;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(365deg);
+    }
+}
