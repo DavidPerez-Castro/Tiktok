@@ -1,3 +1,10 @@
+# Links
+Firebase: https://tiktoktest-fb160.web.app/
+Github App React: https://github.com/DavidPerez-Castro/Tiktok
+Github Api: https://github.com/DavidPerez-Castro/api-mongo-tiktok
+Api Heroku: https://tiktok-mongo.herokuapp.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
